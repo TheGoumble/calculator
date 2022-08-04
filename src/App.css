@@ -27,5 +27,13 @@
 }
 
 button{
-  width: 33%
+  width: 33%;
+  color: white;
+  background-color: gray;
+}
+
+#calculator{
+  background-color: pink;
+  padding: 2em;
+  border: 5px solid black;
 }
