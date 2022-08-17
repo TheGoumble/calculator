@@ -25,9 +25,8 @@ function App() {
         <div id="calculator">
 
         {digits.map((digit)=>{
-          return <button key={digit} onClick={()=>{
-            setTotal(total + digit)
-          }}>{digit}</button>
+          return <button key={digit} onClick={()=>{setTotal(total + digit)}
+        }>{digit}</button>
         })}
         <button onClick={() => {setTotal(0)}}>reset</button>
         </div>
