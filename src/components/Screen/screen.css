@@ -1,0 +1,14 @@
+#screen {
+  height: 4rem;
+  margin-bottom: 2rem;
+  color: white;
+  background: rgb(67, 76, 100);
+  border-color: rgb(160, 149, 123);
+  border-style: solid;
+  border-width: 0.18rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  font-size: 1.5rem;
+}
